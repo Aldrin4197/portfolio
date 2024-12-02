@@ -14,7 +14,7 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: string; // Keep this as a string for props
+  inViewMargin?: string; // Keep this as a string for passing margin
   blur?: string;
 }
 
@@ -26,15 +26,15 @@ const BlurFade = ({
   delay = 0,
   yOffset = 6,
   inView = false,
-  inViewMargin = "-50px",
+  inViewMargin = "20px", // Pass "20px" directly
   blur = "6px",
 }: BlurFadeProps) => {
   const ref = useRef(null);
 
-  // Ensure compatibility by casting margin type explicitly if necessary
-    const inViewResult = useInView(ref, {
+  // Pass the fixed margin directly as "20px"
+  const inViewResult = useInView(ref, {
     once: true,
-    margin: inViewMargin,
+    margin: inViewMargin, // Fixed margin value
   });
 
   const isInView = !inView || inViewResult;
