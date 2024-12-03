@@ -8,9 +8,9 @@ export const DATA = {
   location: "Catbalogan City, Philippines",
   locationLink: "https://www.google.com/maps/place/catbalogan",
   description:
-    "ECE turned Developer. I love building things and helping people..",
+    "ECE turned Developer. I love building things.",
   summary:
-    "t the end of 2022, transitioned to focus full-time on building and scaling SaaS businesses. A self-taught developer with a background in [Electronics and Communications Engineering](/#education). I am also passionate about prototyping, tinkering, and competing in local and regional product and research competitions to explore creative and technical challenges.",
+    "At the end of 2022, transitioned to focus full-time on building and scaling SaaS businesses. A self-taught developer with a background in [Electronics and Communications Engineering](/#education). I am also passionate about prototyping, tinkering, and competing in local and regional product and research competitions to explore creative and technical challenges.",
   avatarUrl: "/jjk.png",
   skills: [
     "React",
@@ -111,8 +111,16 @@ export const DATA = {
   ],
   education: [
     {
+      school: "CS50x 2023",
+      href: "https://cs50.harvard.edu/x/2024/",
+      degree: "Bachelor's Degree in Electronics Engineering",
+      logoUrl: "/ssu.png",
+      start: "2014",
+      end: "2019",
+    },
+    {
       school: "FreeCodeCamp",
-      href: "https://buildspace.so",
+      href: "https://www.freecodecamp.org/",
       degree: "FrontEnd Web Developer",
       logoUrl: "/fcc.jpg",
       start: "2023",
@@ -120,12 +128,13 @@ export const DATA = {
     },
     {
       school: "Samar State University",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree in Electronics Engineering",
-      logoUrl: "/ssu.png",
+      href: "https://ssu.edu.ph",
+      degree: "Introductory Computer Science Course",
+      logoUrl: "/harvard.png",
       start: "2014",
       end: "2019",
     },
+    
 
   ],
   projects: [
