@@ -105,16 +105,24 @@ export const DATA = {
       start: "Sept 2020",
       end: "July 2022",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Responsible for teaching science and technology subjects, integrating IT into the curriculum, managing the institution’s IT infrastructure, troubleshooting hardware and software issues, and providing technical support.",
     },
 
   ],
   education: [
     {
-      school: "CS50x 2023",
-      href: "https://cs50.harvard.edu/x/2024/",
+      school: "Samar State University",
+      href: "https://ssu.edu.ph",
       degree: "Bachelor's Degree in Electronics Engineering",
       logoUrl: "/ssu.png",
+      start: "2014",
+      end: "2019",
+    },
+    {
+      school: "CS50x 2023",
+      href: "https://cs50.harvard.edu/x/2024/",
+      degree: "Introductory Computer Science Course",
+      logoUrl: "/harvard.png",
       start: "2014",
       end: "2019",
     },
@@ -126,15 +134,7 @@ export const DATA = {
       start: "2023",
       end: "2024",
     },
-    {
-      school: "Samar State University",
-      href: "https://ssu.edu.ph",
-      degree: "Introductory Computer Science Course",
-      logoUrl: "/harvard.png",
-      start: "2014",
-      end: "2019",
-    },
-    
+ 
 
   ],
   projects: [
