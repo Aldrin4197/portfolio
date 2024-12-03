@@ -111,20 +111,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Samar State University",
-      href: "https://ssu.edu.ph",
-      degree: "Bachelor's Degree in Electronics Engineering",
-      logoUrl: "/ssu.png",
-      start: "2014",
-      end: "2019",
-    },
-    {
       school: "CS50x 2023",
       href: "https://cs50.harvard.edu/x/2024/",
       degree: "Introductory Computer Science Course",
       logoUrl: "/harvard.png",
-      start: "2014",
-      end: "2019",
+      start: "2024",
+      end: "Present",
     },
     {
       school: "FreeCodeCamp",
@@ -134,8 +126,14 @@ export const DATA = {
       start: "2023",
       end: "2024",
     },
- 
-
+    {
+      school: "Samar State University",
+      href: "https://ssu.edu.ph",
+      degree: "Bachelor's Degree in Electronics Engineering",
+      logoUrl: "/ssu.png",
+      start: "2014",
+      end: "2019",
+    },
   ],
   projects: [
     {
