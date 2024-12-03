@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "ECE turned Developer. I love building things and helping people..",
   summary:
-    "t the end of 2022, transitioned to focus full-time on building and scaling SaaS businesses. A self-taught developer with a background in [Electronics and Communications Engineering](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in for fun.](/#hackathons). I am alsopassionate about prototyping, tinkering, and competing in local and regional product and research competitions to explore creative and technical challenges.",
+    "t the end of 2022, transitioned to focus full-time on building and scaling SaaS businesses. A self-taught developer with a background in [Electronics and Communications Engineering](/#education). I am also passionate about prototyping, tinkering, and competing in local and regional product and research competitions to explore creative and technical challenges.",
   avatarUrl: "/jjk.png",
   skills: [
     "React",
